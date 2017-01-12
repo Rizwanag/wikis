@@ -66,11 +66,15 @@
 * Named Beans - beans created with name  @Bean(name="bata2"). This is used in wiring by name.
  
 ###Scope
-* Singleton/Default - On every getbean, it returns reference of the same object. The only bean gets created during bootup. 
+* Singleton/Default - On every getbean, it returns reference of the same object.  
 * Propotype - On every getbean, it returns reference of new object. The bean is created during getContext.
 * Request - The bean with @Request scope is alive in the lifetime request message only.
 * Session - The bean with @Session scope is alive in the lifetime request message only.
-  
+
+Creation of singleton bean happens only in bootup. 
+Everytime you do a getBean for a Prototype bean, a new object is getting created.  
+
+
 ###Types of auto-wiring
 * When spring boots up ( when you start the application ), it identifies the dependencies by finding @Autowired.
 * It looks for the dependent beans in Spring Container. And, it connects the beans.
