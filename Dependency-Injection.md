@@ -26,6 +26,7 @@
 3. @Scope - This tells spring the object type - singleton or prototype. 
 4. @Qualifier - Tells which bean to connect
 5. @Autowired - Connect dependency to dependent
+6. @Component
 
 ### What Spring provides ?
 * It takes the responsibility of object creation & entire life-cycle.
