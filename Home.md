@@ -1,5 +1,5 @@
 #Course for 24 hours 
-* Spring DI 
+* Spring DI _Done_
 * Spring AOP 
 * Spring MVC - Static Resources, Rendering templates, Images, Form Upload 
 * Spring MVC - File Upload 
