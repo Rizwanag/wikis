@@ -39,3 +39,6 @@ Checks whether method is present in class & returns method object if it is.
 ###Annotation Target
 * The points at which annotations can be applied. Options are
   - Constructor, Field, Local variable, method etc.
+
+###Reflection
+Reflection is commonly used by programs which require the ability to examine or modify the runtime behavior of applications running in the Java virtual machine.
