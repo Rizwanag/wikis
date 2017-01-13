@@ -36,3 +36,6 @@ Use it on class to get class annotation & on method to get method annotation. Ca
 ###getMethod("methodname")
 Checks whether method is present in class & returns method object if it is.  
  
+###Annotation Target
+* The points at which annotations can be applied. Options are
+  - Constructor, Field, Local variable, method etc.
