@@ -1,9 +1,9 @@
 #Course for 24 hours 
 * Spring DI _Done_
-* Spring AOP 
+* Spring AOP _Done_
+* Custom Annotation & Reflection _Done_
 * Spring MVC - Static Resources, Rendering templates, Images, Form Upload 
 * Spring MVC - File Upload 
-* Custom Annotation 
 * Junit & Spring JUnit 
 * Spring Hibernate-MVC Project
 * Logging 
