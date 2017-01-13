@@ -22,6 +22,7 @@
 * Use 'default' to assign default value to member
 
 ##Retention Policy
+* This basically tells how long, annotation information will be available.
 * Annotation retention policy. The constants of this enumerated type describe the various policies for retaining annotations. They are used in conjunction with the Retention meta-annotation type to specify how long annotations are to be retained.
   1. CLASS - Annotations are to be recorded in the class file by the compiler but need not be retained by the VM at run time. Appear in decompiled class, but can't be inspected at run-time with reflections like getAnnotation()
   2. RUNTIME - Annotations are to be recorded in the class file by the compiler and retained by the VM at run time, so they may be read reflectively.
