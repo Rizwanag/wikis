@@ -37,6 +37,12 @@ Pointcut are expressions that is matched with join points to determine whether a
 or not. Pointcut uses different kinds of expressions that are matched with the join points and Spring framework 
 uses the AspectJ pointcut expression language.
 
+* within - Scope can be anything like class, package etc.
+@AfterThrowing("within(com.skillspeed.spring.model.Employee)") - Whenever something within Employee class gets executed & throws exception, the corresponding advice gets executed.
+
+* execution - function call
+@After("execution(* com.skillspeed.spring.service.*.get*())") - Whenever there is a function call & pointcut matches, the corresponding advice gets executed.
+
 ###Target Object
 They are the object on which advice's are applied. Spring AOP is implemented using runtime proxies 
 so this object is always a proxied object. What is means is that a subclass is created at runtime where the target 
@@ -76,3 +82,5 @@ This is the most important and powerful advice. This advice surrounds the join p
 also choose whether to execute the join point method or not. We can write advice code that gets executed before and 
 after the execution of the join point method. It is the responsibility of around advice to invoke the join point 
 method and return values if the method is returning something. We use @Around annotation to create around advice methods.
+
+
