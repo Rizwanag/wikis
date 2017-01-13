@@ -2,16 +2,18 @@ http://docs.spring.io/spring/docs/current/spring-framework-reference/html/aop.ht
 
 ###Spring AOP Overview
 * Cross cutting concerns - logging, security, transaction etc. Functionalities which are not business specific but spans across all business modules.  
-* The main purpose of AOP is that you don't pollute the business logic code. We keep the cross-cutting concerns in separate classes also known as aspect classes - Logger Classes, Security Classes.
-* Objects/Beans need to be created from Spring container for AOP to get into action.
+* Shortcoming - The cross cutting concerns pollutes the business logic code.
+* The main purpose of Spring AOP is that you don't pollute the business logic code. 
+* We keep the cross-cutting concerns in separate classes, also known as Aspect classes - Logger Classes, Security Classes.
+* Spring framework creates beans/objects of the aspect classes. And, Spring framework also creates beans of business logic classes.
 
 Spring AOP takes out the direct dependency of cross-cutting tasks from classes that we can’t achieve through normal object 
 oriented programming model. For example, we can have a separate class for logging but again the functional classes will 
 have to call these methods to achieve logging across the application.
 
 ###How is Spring AOP achieved?
-Spring creates a proxy object which envelops around Business Object and Aspect ( Cross cutting concerns - logging )
-Proxy Object -> Employee Object + Logging
+Spring creates a proxy object which envelops around Business Objects and Aspect Objects( Cross cutting concerns - logging )
+Proxy Object -> Employee Object + Logging Object
 
 For annotation based AOP, the AppConfig class should be annotated with @Configuration @EnableAutoJProxy for creating business beans & aspect beans.
 
