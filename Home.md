@@ -2,8 +2,8 @@
 * Spring DI _Done_
 * Spring AOP _Done_
 * Custom Annotation & Reflection _Done_
-* Spring MVC - Static Resources, Rendering templates, Images, Form Upload 
-* Spring MVC - File Upload 
+* Spring MVC - Static Resources, Rendering templates, Images, Form Upload _Done_
+* Spring MVC - File Upload _Done_
 * Junit & Spring JUnit 
 * Spring Hibernate-MVC Project
 * Logging 
