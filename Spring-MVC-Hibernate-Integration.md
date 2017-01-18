@@ -2,8 +2,8 @@ Steps to Create SpringMVC Project
 * Create the following package -
   1. Controller - Provides controller functionalities
   2. DAO  - Talks to hibernate
-  3. Model  - Contains all models 
-  4. Service - Models are class definitions, where their tables will be created in database.But, we need to provide services for the models. Possible services can be CURD operations. 
+  3. Model  - Contains all models. Models are class definitions, where their tables will be created in database. 
+  4. Service - But, we need to provide services for the models. Possible services can be CURD operations. 
 
 ###DAO
 * DAO is dependent on SessionFactory
