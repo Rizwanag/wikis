@@ -6,7 +6,8 @@ Steps to Create SpringMVC Project
   4. Service - But, we need to provide services for the models. Possible services can be CURD operations. 
 
 ###DAO
-* DAO is dependent on SessionFactory
+* DAO needs to talk to Hibernate.
+* DAO is dependent on SessionFactory for talking to hibernate.
 * This is for database abstraction of an object. To map something to database, create a DAO of it. 
 * Whenever, we save something in DAO. It gets saved into database.
 * DAO abstracts persisting mechanism. 
@@ -33,11 +34,12 @@ Steps to Create SpringMVC Project
 * InternalViewResolver
 * Package information of controller classes
 * DataSource config -
-   - DataSource is an object/bean which contains all the information of database connection.
+   - DataSource is an object/bean which contains all the information for database connection.
 * SessionFactory bean requirement
    - Authentication - datasource
    - Table information - Mapped class name
    - What to access - Hibernate in this case
+* SessionFactory have db authentication information & hibernate related information.
 
 ###Bean Creations
 * Create a datasource
