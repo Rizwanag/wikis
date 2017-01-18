@@ -3,11 +3,11 @@ Frameworks running on top of JUnit - HttpUnit, ServletUnit, JSFUnit, JWebUnit
 ###Setting up JUnit
 * Add JUnit dependency in pom.xml
 
-    <dependency>
+    `<dependency>
 	<groupId>junit</groupId>
         <artifactId>junit</artifactId>
 	<version>4.12</version>
-    </dependency>
+    </dependency>`
 
 ##Annotations in Test Class
 ###@Test
