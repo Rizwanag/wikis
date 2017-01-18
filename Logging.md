@@ -1,3 +1,5 @@
+Idea of logging is to keep logging control in one place rather than polluting code.
+
 ###Dependencies
 
     <dependency>
