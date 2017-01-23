@@ -1,3 +1,5 @@
+Spring server can be easily integrated with REST infrastructure. Server exposes REST API's using which other client's or server can talk to it. Data is predominantly passed in JSON format.
+
 ###@RestController
 * The controller becomes ready now to return objects.
 * The objects are now converted to json before sending to client
