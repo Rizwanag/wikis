@@ -10,7 +10,7 @@
 * Spring Boot MVC _Done_
 * Spring Boot MVC with JSP _Done_
 * Spring Schedular, Batch _Done_
-* Spring WebSocket 
+* Spring WebSocket _Done_
 * Spring REST _Done_
 * Accessing Twitter feeds 
 * Spring Transaction 
