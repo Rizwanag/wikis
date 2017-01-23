@@ -11,7 +11,7 @@
 * Spring Boot MVC with JSP _Done_
 * Spring Schedular, Batch _Done_
 * Spring WebSocket 
-* Spring REST 
+* Spring REST _Done_
 * Accessing Twitter feeds 
 * Spring Transaction 
 * Spring Security 
