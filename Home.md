@@ -15,7 +15,7 @@
 * Accessing Twitter feeds _Done_
 * Spring JMS  _Done_
 * Spring Transaction _Done_
-* Spring Caching 
+* Spring Caching _Done_
 * Spring Security 
 * Spring JPA 
 * Spring Validation 
