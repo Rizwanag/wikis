@@ -19,3 +19,29 @@ JMS is an API that provides the facility to create, send & read messages. It pro
   - Messages are hold & delivered. 
   - One message is delivered to subscribers and thus, it is like broadcasting. 
 
+###Dependencies
+
+     <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
+     </dependency>
+     <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-broker</artifactId>
+     </dependency>
+     <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+     </dependency>
+
+##Steps
+
+###Application.java
+* @EnableJMS on the Application class. Because of 
+* Bean creations
+  - Endpoint Listener Container creation.
+  - Converting Text to JSon. This bean serializes object to JSON.
+
+###Receiver.java
+* Functions are annotated with @JmsListener. It contains destination name & messaging end-point. 
+
