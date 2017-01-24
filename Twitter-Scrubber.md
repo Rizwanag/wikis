@@ -1,4 +1,4 @@
-###Twitter app account creation
+###Registering an Application with Twitter
 * Register yourself to create account
 * Four parameters that is required are as follows
   - Consumer Key
