@@ -12,12 +12,12 @@
 * Spring Schedular, Batch _Done_
 * Spring WebSocket _Done_
 * Spring REST _Done_
-* Accessing Twitter feeds 
+* Accessing Twitter feeds _Done_
+* Spring JMS  _Done_
 * Spring Transaction 
 * Spring Security 
 * Spring Caching 
 * Spring JPA 
-* Spring JMS 
 * Spring Validation 
 * Spring Security Password in Database 
 * Interceptor
