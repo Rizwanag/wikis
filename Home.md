@@ -14,9 +14,9 @@
 * Spring REST _Done_
 * Accessing Twitter feeds _Done_
 * Spring JMS  _Done_
-* Spring Transaction 
-* Spring Security 
+* Spring Transaction _Done_
 * Spring Caching 
+* Spring Security 
 * Spring JPA 
 * Spring Validation 
 * Spring Security Password in Database 
