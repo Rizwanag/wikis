@@ -75,5 +75,4 @@ Two common choices of Tx. Mgmt. - Global Tx. & Local Tx.
 ###Explanation of sample application
 * Create a database with a constraint - ( fname not more than 5 chars )
 * Implement run function in CommandLineRunner & annotate with @Component.
-* 
 
