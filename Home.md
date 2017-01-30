@@ -19,6 +19,7 @@
 * Spring Security 
 * Spring JPA 
 * Spring Validation 
+* Spring Data Binder
 * Spring Security Password in Database 
 * Interceptor
 * ---Additional Topics--
