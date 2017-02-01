@@ -25,3 +25,19 @@ Entire project is built up using annotation with no XML at all.
 * Annotate the class providing with hibernate configuration @Configuration
 * Create beans out of the class
 * The beans will be hibernate specific - Sessionfactory, DataSource, TxMgr
+
+##Controller
+* For every HttpRequest, the request message goes to controller. 
+* Controller uses services for getting information from persistent storage.
+* Using service beans, controller get all information from database.
+
+##Service
+* On annotating a class with @Service, Spring framework creates a bean of it.
+* Controller is dependent on service class beans.
+ 
+##Model
+
+##DAO
+* Creates bean. Service class is dependent on the bean.
+
+##Security
